@@ -91,6 +91,7 @@ overflow: hidden;
 <p><input onclick="Engine(10, this.value)" type="radio" value="c" />to discuss</p>
 <p><input onclick="Engine(10, this.value)" type="radio" value="d" />to discussing</p>
 <p><input onclick="Engine(10, this.value)" type="radio" value="e" />discusses</p>
+<center><input onclick="NextLevel()" type="button" value="Soal Selanjutnya" /> </center>
 <script language="JavaScript">
     <!-- Mulai_script_soal
     var ans = new Array;
@@ -126,6 +127,18 @@ overflow: hidden;
     else {      
     alert("Anda sudah pernah menjawab soal ini!");
           }
+       }
+    }
+function NextLevel () {
+    if (score > 10) {
+    alert("Anda mendapatkan nilai SEMPURNA !");
+    }
+    if (score >= 7 && score <= 11) {
+    alert("Anda meminta Test berikutnya. Klik OK untuk melanjutkan!")
+    self.location="https://graminggris.blogspot.com/2014/05/latihan-soal-there-is-are-was-were-will-be.html"
+    }
+    else {
+    alert("Akses di tolak!  anda membutuhkan skor minimal 7 untuk melanjutkan ke soal berikutnya.")    
        }
     }
     // Selesai_Script_Soal -->
