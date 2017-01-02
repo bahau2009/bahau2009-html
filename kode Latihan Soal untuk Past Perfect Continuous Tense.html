@@ -30,6 +30,57 @@ overflow: hidden;
     </style>
 </head>
 <body>
+<script language="JavaScript">
+    <!-- Mulai_script_soal
+    var ans = new Array;
+    var done = new Array;
+    var score = 0;
+    ans[1] = "a";
+    ans[2] = "c";
+    ans[3] = "b";
+    ans[4] = "d";
+    ans[5] = "e";
+    ans[6] = "b";
+    ans[7] = "d";
+    ans[8] = "a";
+    ans[9] = "e";
+    ans[10] = "b";
+     
+    function Engine(question, answer) {
+    if (answer != ans[question]) {
+    if (!done[question]) {
+    done[question] = -1;
+    alert("Salah!\n\nSkor anda sekarang adalah: " + score);
+    }
+    else {
+    alert("Anda sudah pernah menjawab soal ini!");
+       }
+    }
+    else {
+    if (!done[question]) {
+    done[question] = -1;
+    score++;
+    alert("Benar!\n\nSkor anda sekarang adalah: " + score);
+    }
+    else {      
+    alert("Anda sudah pernah menjawab soal ini!");
+          }
+       }
+    }
+function NextLevel () {
+    if (score > 10) {
+    alert("Anda mendapatkan nilai SEMPURNA !");
+    }
+    if (score >= 7 && score <= 11) {
+    alert("Anda meminta Test berikutnya. Klik OK untuk melanjutkan!")
+    self.location="http://graminggris.blogspot.com/2014/05/latihan-soal-there-is-are-was-were-will-be.html"
+    }
+    else {
+    alert("Akses di tolak!  anda membutuhkan skor minimal 7 untuk melanjutkan ke soal berikutnya.")    
+       }
+    }
+    // Selesai_Script_Soal -->
+    </script>    
 <div id="main-wrapper"> 
 <form>
 <p>1. Oscar ...................... an article for about three hours</p>
@@ -102,60 +153,8 @@ overflow: hidden;
 <p><input onclick="Engine(10, this.value)" type="radio" value="d" />to discussing</p>
 <p><input onclick="Engine(10, this.value)" type="radio" value="e" />discusses</p>
 <center>
-<p><input onclick="NextLevel()" type="button" value="Soal Selanjutnya" /> </center></p>
+<p><input onclick="NextLevel()" type="button" value="Soal Selanjutnya" /></p> </center>
 </form>
-
-<script language="JavaScript">
-    <!-- Mulai_script_soal
-    var ans = new Array;
-    var done = new Array;
-    var score = 0;
-    ans[1] = "a";
-    ans[2] = "c";
-    ans[3] = "b";
-    ans[4] = "d";
-    ans[5] = "e";
-    ans[6] = "b";
-    ans[7] = "d";
-    ans[8] = "a";
-    ans[9] = "e";
-    ans[10] = "b";
-     
-    function Engine(question, answer) {
-    if (answer != ans[question]) {
-    if (!done[question]) {
-    done[question] = -1;
-    alert("Salah!\n\nSkor anda sekarang adalah: " + score);
-    }
-    else {
-    alert("Anda sudah pernah menjawab soal ini!");
-       }
-    }
-    else {
-    if (!done[question]) {
-    done[question] = -1;
-    score++;
-    alert("Benar!\n\nSkor anda sekarang adalah: " + score);
-    }
-    else {      
-    alert("Anda sudah pernah menjawab soal ini!");
-          }
-       }
-    }
-function NextLevel () {
-    if (score > 10) {
-    alert("Anda mendapatkan nilai SEMPURNA !");
-    }
-    if (score >= 7 && score <= 11) {
-    alert("Anda meminta Test berikutnya. Klik OK untuk melanjutkan!")
-    self.location="http://graminggris.blogspot.com/2014/05/latihan-soal-there-is-are-was-were-will-be.html"
-    }
-    else {
-    alert("Akses di tolak!  anda membutuhkan skor minimal 7 untuk melanjutkan ke soal berikutnya.")    
-       }
-    }
-    // Selesai_Script_Soal -->
-    </script>
 </div>
 </body>
 </html>
