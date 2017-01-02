@@ -3,19 +3,11 @@
 <meta charset="utf-8">
 <title>Latihan Soal untuk Past Perfect Continuous Tense</title>
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<meta content='IE=9; IE=8; IE=7; IE=EDGE; chrome=1' http-equiv='X-UA-Compatible'/>
 <style type="text/css">
     <!-- Mulai_antinoscript \\
-#main-wrapper {
-width: 380px;
-float: left;
-overflow: hidden;    
-}
-    body, form {
-    width: 380px;
-    padding: 15px;
-    background: #FFF;
-    font-family: Roboto, sans-serif;
+    body{
+    width: 400;
+    height: 1216;
     }
     .alert {
     background: #fff6bf center no-repeat;
@@ -25,11 +17,13 @@ overflow: hidden;
     border-top: 2px solid #ffd324;
     border-bottom: 2px solid #ffd324;
     }
+    .lanjut{
+    display: none;
+    }
     // selesai_antinoscript -->
     </style>
 </head>
-<body>
-<div id="main-wrapper"> 
+<body>    
 <form>
 <p>1. Oscar ...................... an article for about three hours</p>
 <p><input onclick="Engine(1, this.value)" type="radio" value="a" />had been writing</p>
@@ -91,7 +85,9 @@ overflow: hidden;
 <p><input onclick="Engine(10, this.value)" type="radio" value="c" />to discuss</p>
 <p><input onclick="Engine(10, this.value)" type="radio" value="d" />to discussing</p>
 <p><input onclick="Engine(10, this.value)" type="radio" value="e" />discusses</p>
-<center><input onclick="NextLevel()" type="button" value="Soal Selanjutnya" /> </center>
+<center>
+<p class="lanjut"><input onclick="NextLevel()" type="button" value="Soal Selanjutnya" /></p> </center>
+</form>    
 <script language="JavaScript">
     <!-- Mulai_script_soal
     var ans = new Array;
@@ -135,7 +131,7 @@ function NextLevel () {
     }
     if (score >= 7 && score <= 11) {
     alert("Anda meminta Test berikutnya. Klik OK untuk melanjutkan!")
-    self.location="https://cdn.rawgit.com/bahau2009/bahau2009-html/master/Latihan%20Soal%20untuk%20There%20is%2C%20There%20are%2C%20There%20was%2C%20There%20were%2C%20There%20will%20be.html"
+    self.location="http://graminggris.blogspot.com/2014/05/latihan-soal-there-is-are-was-were-will-be.html"
     }
     else {
     alert("Akses di tolak!  anda membutuhkan skor minimal 7 untuk melanjutkan ke soal berikutnya.")    
@@ -143,7 +139,5 @@ function NextLevel () {
     }
     // Selesai_Script_Soal -->
     </script>    
-</form>
-</div>
 </body>
 </html>
