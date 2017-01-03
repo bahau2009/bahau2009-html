@@ -1,0 +1,152 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Latihan Soal untuk Simple Past Tense</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content='IE=9; IE=8; IE=7; IE=EDGE; chrome=1' http-equiv='X-UA-Compatible'/>
+<style type="text/css">
+    <!-- Mulai_antinoscript \\
+    body, form {
+    font-family: Roboto, sans-serif;
+    }
+    .alert {
+    background: #fff6bf center no-repeat;
+    background-position: 15px 50%; /* x-pos y-pos */
+    text-align: left;
+    padding: 10px 20px 10px 45px;
+    border-top: 2px solid #ffd324;
+    border-bottom: 2px solid #ffd324;
+    }
+    .lanjut{
+    display: none;
+    }
+    // selesai_antinoscript -->
+    </style>
+</head>
+<body>
+
+<script language="JavaScript">
+    <!-- Mulai_script_soal
+    var ans = new Array;
+    var done = new Array;
+    var score = 0;
+    ans[1] = "c";
+    ans[2] = "e";
+    ans[3] = "b";
+    ans[4] = "d";
+    ans[5] = "a";
+    ans[6] = "c";
+    ans[7] = "e";
+    ans[8] = "c";
+    ans[9] = "a";
+    ans[10] = "b";
+     
+    function Engine(question, answer) {
+    if (answer != ans[question]) {
+    if (!done[question]) {
+    done[question] = -1;
+    alert("Salah!\n\nSkor anda sekarang adalah: " + score);
+    }
+    else {
+    alert("Anda sudah pernah menjawab soal ini!");
+       }
+    }
+    else {
+    if (!done[question]) {
+    done[question] = -1;
+    score++;
+    alert("Benar!\n\nSkor anda sekarang adalah: " + score);
+    }
+    else {      
+    alert("Anda sudah pernah menjawab soal ini!");
+          }
+       }
+    }
+    function NextLevel () {
+    if (score > 10) {
+    alert("Anda mendapatkan nilai SEMPURNA !");
+    }
+    if (score >= 7 && score <= 11) {
+    alert("Anda meminta Test berikutnya. Klik OK untuk melanjutkan!")
+    self.location="http://graminggris.blogspot.com/"
+    }
+    else {
+    alert("Akses di tolak!  anda membutuhkan skor minimal 7 untuk melanjutkan ke soal berikutnya.")
+       }
+    }
+    // Selesai_Script_Soal -->
+    </script>
+<form>
+<p>1. He didn't ......... the answer for that question</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="a" />knew</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="b" />knows</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="c" />know</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="d" />knowing</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="e" />to know</p>
+
+<p>2. I ......... a very interesting short story yesterday</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="a" />reads</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="b" />to read</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="c" />readed</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="d" />reading</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="e" />read</p>
+
+<p>3. ......... they do their homework last night?</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="a" />Do</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="b" />Did</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="c" />Does</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="d" />Don't</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="e" />Doesn't</p>
+
+<p>4. We didn't ......... with his plan</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="a" />to agree</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="b" />agreeing</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="c" />agreed</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="d" />agree</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="e" />agrees</p>
+
+<p>5. Mr. Oscar ......... his car three days ago</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="a" />sold</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="b" />sell</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="c" />to sell</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="d" />selling</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="e" />sells</p>
+
+<p>6. Did he ......... english last night?</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="a" />studies</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="b" />studied</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="c" />study</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="d" />to study</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="e" />studying</p>
+
+<p>7. That girl ......... here yesterday</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="d" />were</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="e" />was</p>
+
+<p>8. She didn't ......... her holiday anywhere</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="a" />spent</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="b" />spending</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="c" />spend</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="d" />to spend</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="e" />spends</p>
+
+<p>9. Miss Caroline ......... me to her party two days ago</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="a" />invited</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="b" />invites</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="c" />inviting</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="d" />to invite</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="e" />invite</p>
+
+<p>10. ......... you sleep early last night?</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="a" />Do</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="b" />Did</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="c" />Does</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="d" />Don't</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="e" />Doesn't</p>
+<p class="lanjut"><input onclick="NextLevel()" type="button" value="Soal Selanjutnya" /></p>
+</form>
+</body>
+</html>
