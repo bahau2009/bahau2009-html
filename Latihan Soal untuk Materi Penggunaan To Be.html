@@ -1,0 +1,152 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Latihan Soal untuk Materi Penggunaan To Be</title>
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content='IE=9; IE=8; IE=7; IE=EDGE; chrome=1' http-equiv='X-UA-Compatible'/>
+<style type="text/css">
+    <!-- Mulai_antinoscript \\
+    body, form {
+    font-family: Roboto, sans-serif;
+    }
+    .alert {
+    background: #fff6bf center no-repeat;
+    background-position: 15px 50%; /* x-pos y-pos */
+    text-align: left;
+    padding: 10px 20px 10px 45px;
+    border-top: 2px solid #ffd324;
+    border-bottom: 2px solid #ffd324;
+    }
+    .lanjut{
+    display: none;
+    }
+    // selesai_antinoscript -->
+    </style>
+</head>
+<body>
+
+<script language="JavaScript">
+    <!-- Mulai_script_soal
+    var ans = new Array;
+    var done = new Array;
+    var score = 0;
+    ans[1] = "a";
+    ans[2] = "c";
+    ans[3] = "d";
+    ans[4] = "b";
+    ans[5] = "e";
+    ans[6] = "a";
+    ans[7] = "d";
+    ans[8] = "c";
+    ans[9] = "e";
+    ans[10] = "b";
+     
+    function Engine(question, answer) {
+    if (answer != ans[question]) {
+    if (!done[question]) {
+    done[question] = -1;
+    alert("Salah!\n\nSkor anda sekarang adalah: " + score);
+    }
+    else {
+    alert("Anda sudah pernah menjawab soal ini!");
+       }
+    }
+    else {
+    if (!done[question]) {
+    done[question] = -1;
+    score++;
+    alert("Benar!\n\nSkor anda sekarang adalah: " + score);
+    }
+    else {      
+    alert("Anda sudah pernah menjawab soal ini!");
+          }
+       }
+    }
+    function NextLevel () {
+    if (score > 10) {
+    alert("Anda mendapatkan nilai SEMPURNA !");
+    }
+    if (score >= 7 && score <= 11) {
+    alert("Anda meminta Test berikutnya. Klik OK untuk melanjutkan!")
+    self.location="http://graminggris.blogspot.com/"
+    }
+    else {
+    alert("Akses di tolak!  anda membutuhkan skor minimal 7 untuk melanjutkan ke soal berikutnya.")
+       }
+    }
+    // Selesai_Script_Soal -->
+    </script>
+<form>
+<p>1. I ......... a good student</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(1, this.value)" type="radio" value="e" />were</p>
+
+<p>2. All students ......... happy today</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(2, this.value)" type="radio" value="e" />were</p>
+
+<p>3. She ......... late yesterday</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(3, this.value)" type="radio" value="e" />were</p>
+
+<p>4. My son ......... studying English</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(4, this.value)" type="radio" value="e" />were</p>
+
+<p>5. They ......... in Bali last week</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(5, this.value)" type="radio" value="e" />were</p>
+
+<p>6. I ......... a doctor</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(6, this.value)" type="radio" value="e" />were</p>
+
+<p>7. My car ......... washed two days ago </p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(7, this.value)" type="radio" value="e" />were</p>
+
+<p>8. My friends ......... playing tennis</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(8, this.value)" type="radio" value="e" />were</p>
+
+<p>9. Mr. and Mrs. Smith ......... very happy when i visited them</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(9, this.value)" type="radio" value="e" />were</p>
+
+<p>10. English ......... studied everywhere</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="a" />am</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="b" />is</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="c" />are</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="d" />was</p>
+<p><input onclick="Engine(10, this.value)" type="radio" value="e" />were</p>
+<p class="lanjut"><input onclick="NextLevel()" type="button" value="Soal Selanjutnya" /></p>
+</form>
+</body>
+</html>
